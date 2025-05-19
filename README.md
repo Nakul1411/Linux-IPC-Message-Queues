@@ -21,7 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## C program that receives a message from message queue and display them
-
+```
      writer.c
 
       // C Program for Message Queue (Writer Process) 
@@ -50,9 +50,10 @@ int main()
 	// display the message 
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
-} 
+}
+```
 reader.c
-
+```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -84,10 +85,9 @@ int main()
 }
 
 
-
+```
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/cde5ad8b-3815-4477-8d09-007c94320a32)
 
 
 # RESULT:
